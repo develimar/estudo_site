@@ -37,7 +37,7 @@
     <div class="modal-content">
         <h3 class="flow-text center-align">Preencha todos os campos</h3>
 
-        <form action="" method="post">
+        <form action="{{route('lead')}}" method="post">
             @csrf
             <div class="row">
 
