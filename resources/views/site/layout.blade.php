@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
 
+    {{--Font Wesome--}}
+    <script src="https://kit.fontawesome.com/b0c754ca4f.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -32,6 +35,8 @@
 {{--conteudo principal--}}
 @yield('content')
 
+{{--Rodapé--}}
+@include('partials.footer')
 
 {{--jquery--}}
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -40,6 +45,8 @@
 {{--javascript materalise--}}
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
 
 
 
