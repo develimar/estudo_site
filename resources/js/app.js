@@ -10,8 +10,15 @@ $(document).ready(function() {
     $('.parallax').parallax();
 
 
-    //Configurações Jquery Mask
+
+    //Configurações Jquery Mask - Banner
     $('#telefone').mask('(00) 0 0000-0000');
+
+    //Configurações Jquery Mask - Contato
+    $('#telefone_contato').mask('(00) 0 0000-0000');
+
+    //Configuração do TextArea
+    $('#textarea1').textarea();
 
 });
 

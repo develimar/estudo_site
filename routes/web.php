@@ -24,5 +24,6 @@ Route::get('/galeria', [NavigationController::class, 'galeria'])->name('galeria'
 Route::get('/contato', [NavigationController::class, 'contato'])->name('contato');
 
 Route::post('/',[\App\Http\Controllers\SendMailController::class, 'lead'])->name('lead');
+Route::post('/contato',[\App\Http\Controllers\SendMailController::class, 'contato'])->name('novocontato');
 
 
