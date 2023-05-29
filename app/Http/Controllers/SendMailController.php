@@ -21,6 +21,6 @@ class SendMailController extends Controller
         ];
 
         Mail::to('elimar.pc@gmail.com')->send(new SendMail($data));
-        redirect()->route('home');
+        return redirect()->route('home');
     }
 }
